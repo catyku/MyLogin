@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>更改資料</title>
+        <link rel="stylesheet" type="text/css" href="change_data.css"/>
+        <script type="text/javascript" src="change_data.js"></script>
+    </head>
+    <body>
+        <h1>輸入需要更新資料的名稱:</h1>
+        <p><input type="text" id="find">
+            <input type="button" value="檢索" onclick="removeStorage('msg');">
+        </p>
+        <p id="msg"></p>
+        <hr>
+        <h1>輸入需要更新的資料:</h1>
+        <table>
+            <tr><td>姓名:</td><td><input type="text" id="nameNew"></td></tr>
+            <tr><td>Email:</td><td><input type="text" id="emailNew"></td></tr>
+            <tr><td>電話號碼:</td><td><input type="text" id="telNew"></td></tr>
+            <tr><td>備註:</td><td><input type="text" id="memoNew"></td></tr>
+            <tr>
+                <td></td>
+                <td><input type="button" id="btn_renew" value="更新" onclick="reNewStorage();"></td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>登入頁面</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        
+    </head>
+    <body>
+        <div id="login_frame">
+            <p id="image_logo"><img src="images/login/duck.png"></p>
+            <form method="post" action="login.jsp">
+                <p><label class="label_input">使用者名稱</label><input type="text" id="username" name="account" class="text_field"/></p>
+                <p><label class="label_input">密碼</label><input type="text" id="password" name="password" class="text_field"/></p>
+                <div id="login_control">
+                    <input type="submit" id="btn_login" value="登入" />
+                    <a id="forget_pwd" href="forget_pwd.html">忘記密碼？</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

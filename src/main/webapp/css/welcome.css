@@ -1,0 +1,66 @@
+body 
+{
+    background-image: url("images/login/loginBac.jpg");;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#btn_save
+{
+    font-size: 14px;
+    font-family: 微軟正黑體;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+    float: left;
+}
+
+#btn_search
+{
+    font-size: 14px;
+    font-family: 微軟正黑體;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+    float: left;
+}
+
+#btn_change
+{
+    font-size: 14px;
+    font-family: 微軟正黑體;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+    float: left;
+}
+
+#btn_logout
+{
+    font-size: 14px;
+    font-family: 微軟正黑體;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+    float: left;
+}
