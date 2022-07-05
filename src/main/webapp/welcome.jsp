@@ -5,12 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%
-    if(session.getAttribute("user")==null)
-    {
-        response.sendRedirect("index.html");
-    }
-%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,5 +14,6 @@
     </head>
     <body>
         <h1>你登入成功嚕!感動嘛....</h1>
+        <p><c:out value="${title}"/></p>
     </body>
 </html>

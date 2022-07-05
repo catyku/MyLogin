@@ -14,7 +14,7 @@ import java.sql.SQLException;
  *
  * @author yku
  */
-public class login {
+public class ExecuteLogin {
     public String match(String acct,String pwd){
         Connection con = null;
         try
